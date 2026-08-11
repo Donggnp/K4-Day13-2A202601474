@@ -6,11 +6,11 @@
 - Repository URL: https://github.com/Donggnp/K4-Day13-2A202601474
 - Commit SHA cuối: xem commit cuối trên GitHub sau khi push hoặc chạy `git rev-parse HEAD`.
 - Thành viên và vai trò:
-  - Nguyễn Phương Đông - 01474: Role A, API & Middleware, nhóm trưởng.
-  - Trần Thị Kiều Trang - 01498: Role D, SRE & Alerts Engineer.
-  - Ngô Minh Phước - 01576: Role B, Security Engineer.
-  - Nguyễn Quý Dũng - 01200: Role C, Metrics & Dashboard.
-  - Nguyễn Nhật Minh - 01950: Role E, QA & Chief Investigator.
+  - Nguyễn Phương Đông - 01474: Role API & Middleware, nhóm trưởng.
+  - Trần Thị Kiều Trang - 01498: Role SRE & Alerts Engineer.
+  - Ngô Minh Phước - 01576: Role Security Engineer.
+  - Nguyễn Quý Dũng - 01200: Role Metrics & Dashboard.
+  - Nguyễn Nhật Minh - 01950: Role QA & Chief Investigator.
 
 ## 2. Kết quả kỹ thuật
 
