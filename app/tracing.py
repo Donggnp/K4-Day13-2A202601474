@@ -3,6 +3,9 @@ from __future__ import annotations
 import os
 from typing import Any
 
+if os.getenv("LANGFUSE_HOST") and not os.getenv("LANGFUSE_BASE_URL"):
+    os.environ["LANGFUSE_BASE_URL"] = os.environ["LANGFUSE_HOST"]
+
 try:
     from langfuse import get_client, observe
 
@@ -29,6 +32,11 @@ except ImportError:  # pragma: no cover - chỉ dùng khi chưa cài requirement
 
 def get_langfuse_client():
     return get_client()
+
+
+def flush_langfuse() -> None:
+    if tracing_enabled():
+        get_client().flush()
 
 
 def tracing_enabled() -> bool:
